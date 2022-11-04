@@ -4,7 +4,7 @@
  * @Author: wangfquan
  * @Date: 2022-04-15 10:46:13
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-04-21 15:32:24
+ * @LastEditTime: 2022-11-04 15:56:54
 -->
 
 <template>
@@ -62,6 +62,7 @@ export default {
     ExcelVue: () => import("@/views/Excel.vue"),
     PageExcelVue: () => import("@/views/PageExcel.vue"),
     VueLazyloadVue: () => import("@/views/VueLazyload.vue"),
+    TailwindCSS: () => import("@/views/TailwindCSS.vue"),
   },
   data() {
     return {
@@ -89,6 +90,7 @@ export default {
         "PageExcelVue",
         "DriverjsVue",
         "VueLazyloadVue",
+        "TailwindCSS",
       ],
     };
   },

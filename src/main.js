@@ -4,7 +4,7 @@
  * @Author: wangfquan
  * @Date: 2022-04-15 10:46:13
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-04-21 17:33:34
+ * @LastEditTime: 2022-11-04 15:52:25
  */
 import Vue from 'vue'
 import App from './App.vue'
@@ -68,6 +68,8 @@ Vue.use(VueLazyload, {//懒加载配置项
   attempt: 1
 })
 
+/*  引入Tailwind CSS*/
+import './style/index.css'
 
 Vue.config.productionTip = false
 
